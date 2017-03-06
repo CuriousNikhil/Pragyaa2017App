@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "471920672232",
+    "firebase_url": "https://pragyaa2017-d7e2d.firebaseio.com",
+    "project_id": "pragyaa2017-d7e2d",
+    "storage_bucket": "pragyaa2017-d7e2d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471920672232:android:143663bc1ad948c7",
+        "android_client_info": {
+          "package_name": "org.pragyaa.pragyaa2017"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471920672232-cj514clm8kqh9vts9gr76jbvl9pl472v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.pragyaa.pragyaa2017",
+            "certificate_hash": "B767EEE2E578A513F93BE76506492EA4A86B0662"
+          }
+        },
+        {
+          "client_id": "471920672232-r6rmp9pjbn880c430632fqakdbq892hg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPnn2ceGF8rUq8Eu9CScwZjpjomGNOIks"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471920672232-r6rmp9pjbn880c430632fqakdbq892hg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

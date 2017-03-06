@@ -1,0 +1,243 @@
+<resources>
+    <string name="app_name">Pragyaa 2017</string>
+
+    <!--about us activity strings-->
+    <string name="about_pragyaa_text">
+        <b><i>"A wisdom by which truth can be seen.\n"</i></b>
+        A national level technical fiesta of SGGSIE&amp;T, Nanded organized every year to provide a platform for students to show their excellence in techno-social competitions. Each year we have a constructive theme working for the welfare of society &amp; technology. Students come in huge numbers to participate in the multitude of events ranging from the brainstorming junior scientist to the bewildering robotics and get a chance to delve into a variety of exhibits. We aim at focusing on excellence of technology for human welfare and add a new dimension to success of our extravaganza every year so that it will reach the height of its glory</string>
+    <string name="about_sggs"><b><u>Shri Guru Gobind Singhji Institute of Engineering and Technology (SGGSIE&amp;T), Nanded"\n"</u></b>
+        An autonomous Institute owened by the Government of Maharashtra
+         </string>
+
+
+    <string-array name="onlineevents">
+        <item>TACKLE-IT</item>
+        <item>E-QUIZ</item>
+        <item>Innovative Product Development</item>
+        <item>I AM AN ENGINEER</item>
+    </string-array>
+
+    <string-array name="specialevents">
+        <item>ART ATTACK</item>
+        <item>JUNKYARD WARS</item>
+        <item>JUNIOR SCIENTIST</item>
+        <item>ASTRO QUIZ</item>
+        <item>SAVE YOUR MONEY</item>
+        <item>TECHNOSOLUTIONS</item>
+        <item>TECHTOON</item>
+    </string-array>
+
+    <string-array name="robotics">
+        <item>SPEEDSTER</item>
+        <item>LINE FOLLOWER BOT</item>
+        <item>PICK N PLACE</item>
+        <item>ROBOSOCCER</item>
+    </string-array>
+
+
+    <string-array name="departmental">
+        <item>CODE\'EM GAMBLE (CODENZA)</item>
+        <item>BLIND-C (CODENZA)</item>
+        <item>PPT (CODENZA)</item>
+
+        <item>C BRAIN (GEN IT)</item>
+        <item>GEN - IT PPT (GEN IT)</item>
+
+        <item>TECHNO CIRCUIT (ELECHROMA)</item>
+        <item>MICROCON (ELECHROMA)</item>
+        <item>E - PAPER (ELECHROMA)</item>
+
+        <item>Q - ZEN (ELECTRIZION)</item>
+        <item>PAPEL ELECTRICA (ELECTRIZION)</item>
+
+        <item>BIOMEX (ICON)</item>
+        <item>SANSHLESHAN PPT (ICON)</item>
+
+        <item>CENFEST TOWER (CENFEST)</item>
+        <item>SMART  SURVEYOR (CENFEST)</item>
+
+        <item>CHEMTREK(CHEMSPARK)</item>
+        <item>TECHNOCHEM (CHEMSPARK)</item>
+
+        <item>TECHNOTEX (TEXTPLORER)</item>
+        <item>PICTORIA (TEXTPLORER)</item>
+        <item>PAPER TEX(TEXTPLORER)</item>
+
+        <item>MECH QUIZ (MECHATRON)</item>
+        <item>MECH TASK (MECHATRON)</item>
+
+        <item>CAD WAR (BATTLE PRO E)</item>
+        <item>PPT (BATTLE PRO E)</item>
+
+        <item>SEEM CITY (CENFEST)</item>
+        <item>PROTOCHEM(CHEMSPARK)</item>
+    </string-array>
+
+
+    <string-array name="gaming">
+        <item>NEED FOR SPEED (Most Wanted)</item>
+        <item>COUNTER STRIKE</item>
+        <item>MINIMILITIA</item>
+        <item>RUBIK\' S CUBE</item>
+    </string-array>
+
+
+    <!--description of the events-->
+    <string-array name="committees">
+        <item>Student\'s Chief Coordinators</item>
+        <item>Student\'s Joint Coordinators</item>
+        <item>Sponsorship Committee</item>
+        <item>Finance Committee</item>
+        <item>Event-Affairs Committee</item>
+        <item>Hospitality,Guest Management &amp; Lecture Series Committee</item>
+        <item>Web Designing &amp; Advertising Committee</item>
+        <item>Food &amp; Site Committee</item>
+        <item>Public Relations Committee</item>
+    </string-array>
+
+    <string-array name="chiefCordisMain">
+        <item>Hardik Patil\n+91 9011027212 </item>
+        <item>Shivam Zanjat\n+91 9850819357 </item>
+    </string-array>
+
+    <string-array name="chiefCordisJoint">
+        <item>Bhavika Khiyani\n+91 8408921888</item>
+        <item> Akshay Shinde\n+91 9766233771</item>
+    </string-array>
+
+    <string-array name="mainCoordis">
+        <item>Ashish Sharma\n+91 8390209737</item>
+        <item>Sumeet Hatkar\n+91 7038809668</item>
+        <item>Akshay Ingole\n+91 9623207181</item>
+        <item>Abhishek Tadas\n+91 8180832639</item>
+        <item>Dhruvesh Navghare\n+91 7387985088</item>
+        <item>Maninder Singh Chabbra\n+91 8308961269</item>
+        <item>Devika Ghosh\n+91 7038777133</item>
+    </string-array>
+
+    <!--<string-array name="jointCoordis">-->
+    <!--<item>-->
+    <!---->
+    <!--<item> Mazin Hashmi\n +91 8308298603\n\n</item>-->
+    <!--<item> Sampada Salve\n +91 8793447458\n \n</item>-->
+    <!--<item> Pooja Yadav\n +91 7276199252\n-->
+    <!--</item></item>-->
+
+    <!--<item>-->
+    <!---->
+    <!--<item>Aditya Kodte\n +91 9527179869\n</item>-->
+    <!--</item>-->
+
+    <!--<item>-->
+    <!---->
+    <!--<item>Vaibhav Bhingare\n +91 8149623088​⁠ \n\n</item>-->
+    <!--<item>Nikita Thote\n +91 7447698570\n</item>-->
+    <!--</item>-->
+
+    <!--<item>-->
+    <!---->
+    <!--<item>Vishal Uppin\n +91 9405488027 \n\n</item>-->
+    <!--<item>Revati Patil\n +91 7972079129 \n\n</item>-->
+    <!--<item>Kshitija Wankhede\n +91 8888720452\n</item>-->
+    <!--</item>-->
+
+    <!--<item>-->
+    <!---->
+    <!--<item>Ankur Narkhede\n +91 8275285018 \n\n</item>-->
+    <!--<item>Nikhil Bhandarkar\n +91 7057538634 \n\n</item>-->
+    <!--<item>Nikhil Chaudhari\n +91 7030093009\n-->
+    <!--</item>-->
+    <!--</item>-->
+
+    <!--<item>-->
+    <!---->
+    <!--<item>Ankit Chopde\n +91 8149828009 \n\n</item>-->
+    <!--<item>Tanmay Pawar\n +91 8605588527\n\n</item>-->
+    <!--<item>Sanket Patil\n +91 7773995665\n\n</item>-->
+    <!--<item>Aditya Chaudhari\n +91 8888338208\n</item>-->
+    <!--</item>-->
+
+    <!--<item>-->
+    <!---->
+    <!--<item>Sukhwant Kaur Siledar\n +91 9881933713 \n\n</item>-->
+    <!--<item>Chetan Khirale\n +91 7447396411 \n\n</item>-->
+    <!--<item>Gaurav Rotke\n +91 7768894736\n</item>-->
+    <!--</item>-->
+    <!--</string-array>-->
+
+    <!---->
+
+    <string-array name="jointOne">
+        <item> Vaibhav Kadu\n +91 7709376978 </item>
+        <item>Swapnil Bobde\n +91 9405146747 </item>
+        <item>Kunal Chandak\n +91 7776882277 </item>
+        <item>Shashank Lipate\n +91 9657698736 </item>
+        <item>Renuka Tamboli\n +91 7588424040 </item>
+        <item>Sushant Singh\n +91 7028291302 </item>
+        <item>Ajay Kamble\n  +91 9764553256</item>
+    </string-array>
+
+
+    <string-array name="jointTwo">
+        <item> Mazin Hashmi\n +91 8308298603</item>
+        <item>Aditya Kodte\n +91 9527179869</item>
+        <item>Vaibhav Bhingare\n +91 8149623088​⁠ </item>
+        <item>Vishal Uppin\n +91 9405488027 </item>
+        <item>Ankur Narkhede\n +91 8275285018 </item>
+        <item>Ankit Chopde\n +91 8149828009 </item>
+        <item>Sukhwant Kaur Siledar\n +91 9881933713 </item>
+    </string-array>
+
+
+    <string-array name="jointThree">
+        <item> Sampada Salve\n +91 8793447458 </item>
+        <item></item>
+        <item>Nikita Thote\n +91 7447698570</item>
+        <item>Revati Patil\n +91 7972079129 </item>
+        <item>Nikhil Bhandarkar\n +91 7057538634 </item>
+        <item>Tanmay Pawar\n +91 8605588527</item>
+        <item>Chetan Khirale\n +91 7447396411 </item>
+    </string-array>
+
+
+    <string-array name="jointFour">
+        <item> Pooja Yadav\n +91 7276199252</item>
+        <item></item>
+        <item></item>
+        <item>Kshitija Wankhede\n +91 8888720452</item>
+        <item>Nikhil Chaudhari\n +91 7030093009</item>
+        <item>Sanket Patil\n +91 7773995665</item>
+        <item>Gaurav Rotke\n +91 7768894736</item>
+    </string-array>
+
+    <string-array name="jointFive">
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item></item>
+        <item>Aditya Chaudhari\n +91 8888338208</item>
+        <item></item>
+    </string-array>
+
+    <!--event detail activity strings-->
+    <string name="mobi_one"><u> mobi one </u></string>
+    <string name="mobi_two"><u> mobi two </u></string>
+    <string name="dropdown_name">Select an Event</string>
+    <string name="title_activity_hospitality">Hospitality</string>
+    <string name="hospitality_desc">Hospitality of the guests is of paramount importance on any auspicious occasion.Over the years, Pragyaa has grown in stature, both in terms of its content, as well as its infrastructure and logistics. The dream which had humble beginnings has come to become a technical extravaganza, drawing crowds numbering in tens of thousands. Along with the facilities of accommodation for participants, we arrange a food court where a variety of cuisines satisfying the needs of every palate is available. Pragyaa team strives to make your stay comfortable and see to it that all participants get all the privileges and no chance of any grievances thus setting new standards in hospitality management.</string>
+    <string name="accommodation">1) Food Charges will be applicable.<br />
+2) Girl participants will be accommodated in SGGS Girl\'s Hostel in College campus.<br />
+3) Boy participants will be accommodated in Boy\'s Hostel and nearby places to College campus.<br />
+4) College Buses will be running at regular intervals to and from bus station, railway station, accommodation places and college.<br /></string>
+    <string name="copyright">PRAGYAA-2017<br /></string>
+    <string name="alert_web"><![CDATA[And Web Designing & Advertising Team]]></string>
+    <string name="design_text_alert">-Designed and Developed by-</string>
+    <string name="title_activity_schedule">Events &amp; Schedule</string>
+    <string name="about_us_activity_title">About Us</string>
+    <string name="event_details_activity_title">Event Name</string>
+    <string name="title_activity_committee">CommitteeActivity</string>
+    <string name="pragya_link"><u>http://www.pragyaa.org</u></string>
+    <string name="register_text"><u>Register</u></string>
+    <string name="title_activity_info_dept">Departmental events Info</string>
+</resources>

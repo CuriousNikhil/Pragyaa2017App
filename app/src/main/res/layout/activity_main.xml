@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:fitsSystemWindows="true"
+    android:theme="@style/Theme.AppCompat"
+    tools:context="org.pragyaa.pragyaa2017.MainActivity">
+
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="snap">
+
+
+            <ImageView
+                android:id="@+id/fire_back"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:fitsSystemWindows="true"
+                android:scaleType="centerCrop"
+                app:layout_collapseMode="none" />
+
+            <su.levenetc.android.textsurface.TextSurface
+                android:id="@+id/header"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="@dimen/vsm_keyLines" />
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.daimajia.slider.library.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/twoC"
+                android:layout_marginBottom="@dimen/micro_keyLines" />
+
+
+            <LinearLayout
+                android:id="@+id/dept_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/oneHalfC"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/micro_keyLines"
+                android:layout_marginRight="@dimen/micro_keyLines"
+                android:alpha="0.8"
+                android:background="@drawable/deptwant"
+                android:orientation="horizontal">
+
+                <com.romainpiel.shimmer.ShimmerTextView
+                    android:id="@+id/event_one"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_back_yellow"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="DEPARTMENTAL EVENTS"
+                    android:textColor="@color/whiteText"
+                    android:textSize="18sp"
+                    app:reflectionColor="#c5ff3300" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/robotics_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/oneHalfC"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:alpha="0.8"
+                android:background="@drawable/roboti"
+                android:orientation="horizontal">
+
+                <com.romainpiel.shimmer.ShimmerTextView
+                    android:id="@+id/event_two"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_back_orange"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="ROBOTICS"
+                    android:textColor="@color/whiteText"
+                    android:textSize="18sp"
+                    app:reflectionColor="#c5ff3300" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/special_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/oneHalfC"
+                android:layout_gravity="center"
+                android:layout_marginLeft="@dimen/micro_keyLines"
+                android:layout_marginRight="@dimen/micro_keyLines"
+                android:alpha="0.8"
+                android:background="@drawable/specialevent"
+                android:orientation="horizontal">
+
+                <com.romainpiel.shimmer.ShimmerTextView
+                    android:id="@+id/event_three"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_back_pink"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="SPECIAL EVENTS"
+                    android:textColor="@color/whiteText"
+                    android:textSize="18sp"
+                    app:reflectionColor="#c5ff3300" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/gaming_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/oneHalfC"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/micro_keyLines"
+                android:layout_marginLeft="@dimen/micro_keyLines"
+                android:layout_marginRight="@dimen/micro_keyLines"
+                android:alpha="0.8"
+                android:background="@drawable/game"
+                android:orientation="horizontal">
+
+                <com.romainpiel.shimmer.ShimmerTextView
+                    android:id="@+id/gaming"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_back_green"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="GAMING ZONE"
+                    android:textColor="@color/whiteText"
+                    android:textSize="18sp"
+                    app:reflectionColor="#c5ff3300" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/online_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/oneHalfC"
+                android:layout_gravity="center"
+                android:layout_marginBottom="@dimen/micro_keyLines"
+                android:layout_marginLeft="@dimen/micro_keyLines"
+                android:layout_marginRight="@dimen/micro_keyLines"
+                android:alpha="0.8"
+                android:background="@drawable/online"
+                android:orientation="horizontal">
+
+                <com.romainpiel.shimmer.ShimmerTextView
+                    android:id="@+id/online_eve"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/text_back_blue"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="ONLINE EVENTS &amp; EXHIBITION"
+                    android:textColor="@color/whiteText"
+                    android:textSize="18sp"
+                    app:reflectionColor="#c5ff3300" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <org.pragyaa.pragyaa2017.Fab
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/sm_keyLines"
+        android:background="@drawable/button_shape"
+        android:elevation="4dp"
+        app:srcCompat="@drawable/ic_menu_more"
+        app:fab_colorNormal="@color/colorAccent" />
+
+    <com.gordonwong.materialsheetfab.DimOverlayFrameLayout
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Circular reveal container for the sheet -->
+    <io.codetail.widget.RevealLinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="end|bottom"
+        android:orientation="vertical">
+
+        <!-- Sheet that contains items -->
+        <android.support.v7.widget.CardView
+            android:id="@+id/fab_sheet"
+            style="@style/Widget.MaterialSheetFab.Sheet">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/register"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_register_selector"
+                    android:drawableStart="@drawable/ic_register_selector"
+                    android:text="Register" />
+
+                <TextView
+                    android:id="@+id/schedule"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_schedule_selector"
+                    android:drawableStart="@drawable/ic_schedule_selector"
+                    android:text="Schedule" />
+
+                <TextView
+                    android:id="@+id/hospitality"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_hospi_selector"
+                    android:drawableStart="@drawable/ic_hospi_selector"
+                    android:text="Hospitality" />
+
+                <TextView
+                    android:id="@+id/contact"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_contact_selector"
+                    android:drawableStart="@drawable/ic_contact_selector"
+                    android:text="Contact Us" />
+
+                <TextView
+                    android:id="@+id/about"
+                    style="@style/myFabTextView"
+                    android:drawableLeft="@drawable/ic_about_selector"
+                    android:drawableStart="@drawable/ic_about_selector"
+                    android:text="About Us" />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </io.codetail.widget.RevealLinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

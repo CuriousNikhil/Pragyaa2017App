@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="?android:attr/selectableItemBackground"
+    android:padding="@dimen/sm_keyLines">
+
+    <TextView
+        android:id="@+id/name_comit"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textAlignment="center"
+        android:text="Committee Name"
+        android:padding="@dimen/vsm_keyLines"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+</LinearLayout>
